@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#111318">
+    <title>Preflop ranges</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">♠</span>
+        <span>Preflop ranges</span>
+      </a>
+
+      <div class="header-tools">
+        <section class="rng" aria-labelledby="rng-label">
+          <div class="rng-readout">
+            <span id="rng-label">RNG</span>
+            <output id="rng-value" aria-live="polite">--</output>
+          </div>
+          <label class="interval-control" for="rng-interval">
+            <span>Cada</span>
+            <input
+              id="rng-interval"
+              type="number"
+              min="1"
+              max="3600"
+              step="1"
+              value="5"
+              inputmode="numeric"
+              aria-describedby="rng-unit"
+            >
+            <span id="rng-unit">seg</span>
+          </label>
+          <button id="rng-refresh" class="icon-button" type="button" aria-label="Generar otro número">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 11a8 8 0 1 0-2.34 5.66M20 4v7h-7"></path>
+            </svg>
+          </button>
+        </section>
+
+        <button id="theme-toggle" class="icon-button" type="button" aria-label="Cambiar a modo día">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div id="status" class="status" role="status">Cargando rangos…</div>
+      <section id="ranges-grid" class="ranges-grid" aria-label="Rangos preflop"></section>
+    </main>
+
+    <template id="range-template">
+      <article class="range-card">
+        <h3></h3>
+        <img loading="lazy" decoding="async">
+      </article>
+    </template>
+  </body>
+</html>

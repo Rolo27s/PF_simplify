@@ -1,0 +1,59 @@
+{
+  "ranges": [
+    {
+      "title": "01 · OR EP 2bb",
+      "src": "assets/images/01_OR_EP_2bb_0.png",
+      "alt": "Rango de open raise desde EP a 2bb"
+    },
+    {
+      "title": "02 · OR MP 2bb",
+      "src": "assets/images/02_OR_MP_2bb_0.png",
+      "alt": "Rango de open raise desde MP a 2bb"
+    },
+    {
+      "title": "03 · OR CO 2.3bb",
+      "src": "assets/images/03_OR_CO_2.3bb_0.png",
+      "alt": "Rango de open raise desde CO a 2.3bb"
+    },
+    {
+      "title": "04 · OR BTN 2.5bb",
+      "src": "assets/images/04_OR_BTN_2.5bb_0.png",
+      "alt": "Rango de open raise desde BTN a 2.5bb"
+    },
+    {
+      "title": "05 · OR SB 3bb",
+      "src": "assets/images/05_OR_SB_3bb_0.png",
+      "alt": "Rango de open raise desde SB a 3bb"
+    },
+    {
+      "title": "06 · Blank Space",
+      "src": "assets/images/00_blank_space_0.png",
+      "alt": "Espacio en blanco"
+    },
+    {
+      "title": "10 · Defensa BB vs EP",
+      "src": "assets/images/10_defensa_BB_vs_EP_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde EP"
+    },
+    {
+      "title": "11 · Defensa BB vs MP",
+      "src": "assets/images/11_defensa_BB_vs_MP_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde MP"
+    },
+    {
+      "title": "12 · Defensa BB vs CO",
+      "src": "assets/images/12_defensa_BB_vs_CO_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde CO"
+    },
+    {
+      "title": "13 · Defensa BB vs BTN",
+      "src": "assets/images/13_defensa_BB_vs_BTN_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde BTN"
+    },
+    {
+      "title": "14 · Defensa BB vs SB",
+      "src": "assets/images/14_defensa_BB_vs_SB_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde SB"
+    }
+  ]
+}
