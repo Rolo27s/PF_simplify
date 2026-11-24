@@ -60,9 +60,13 @@ function setSavedTheme() {
 
 function createRangeCard(range) {
   const card = rangeTemplate.content.cloneNode(true);
+  const article = card.querySelector("article");
   const image = card.querySelector("img");
 
   card.querySelector("h3").textContent = range.title;
+  if (typeof range.blockStyle === "string" && range.blockStyle.trim() !== "") {
+    article.classList.add(`range-card--${range.blockStyle.trim()}`);
+  }
   image.src = range.src;
   image.alt = range.alt || `Visualización del rango ${range.title}`;
   return card;

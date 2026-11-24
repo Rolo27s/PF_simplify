@@ -1,59 +1,143 @@
 {
   "ranges": [
     {
-      "title": "01 · OR EP 2bb",
-      "src": "assets/images/01_OR_EP_2bb_0.png",
-      "alt": "Rango de open raise desde EP a 2bb"
+      "title": "01 · OR Early 2bb",
+      "src": "assets/images/06_OR_Early_2bb_0.png",
+      "alt": "Rango de open raise desde Early a 2bb"
     },
     {
-      "title": "02 · OR MP 2bb",
-      "src": "assets/images/02_OR_MP_2bb_0.png",
-      "alt": "Rango de open raise desde MP a 2bb"
-    },
-    {
-      "title": "03 · OR CO 2.3bb",
+      "title": "02 · OR CO 2.3bb",
       "src": "assets/images/03_OR_CO_2.3bb_0.png",
       "alt": "Rango de open raise desde CO a 2.3bb"
     },
     {
-      "title": "04 · OR BTN 2.5bb",
+      "title": "03 · OR BTN 2.5bb",
       "src": "assets/images/04_OR_BTN_2.5bb_0.png",
       "alt": "Rango de open raise desde BTN a 2.5bb"
     },
     {
-      "title": "05 · OR SB 3bb",
+      "title": "04 · OR SB 3bb",
       "src": "assets/images/05_OR_SB_3bb_0.png",
       "alt": "Rango de open raise desde SB a 3bb"
     },
     {
-      "title": "06 · Blank Space",
+      "title": "31 · Early vs 3Bet IP",
+      "src": "assets/images/31_Early2_vs_3bet_IP_0.png",
+      "alt": "Rango de Early contra 3Bet en posición"
+    },
+    {
+      "title": "32 · CO vs 3Bet IP",
+      "src": "assets/images/32_CO_vs_3bet_IP_0.png",
+      "alt": "Rango de CO contra 3Bet en posición"
+    },
+    {
+      "title": "00 · Empty",
       "src": "assets/images/00_blank_space_0.png",
-      "alt": "Espacio en blanco"
+      "alt": "Rango en blanco"
     },
     {
-      "title": "10 · Defensa BB vs EP",
-      "src": "assets/images/10_defensa_BB_vs_EP_0.png",
-      "alt": "Rango de defensa de BB contra una apertura desde EP"
+      "title": "33 · SB vs 3Bet IP",
+      "src": "assets/images/33_SB_vs_3bet_IP_0.png",
+      "alt": "Rango de SB contra 3Bet en posición"
     },
     {
-      "title": "11 · Defensa BB vs MP",
-      "src": "assets/images/11_defensa_BB_vs_MP_0.png",
-      "alt": "Rango de defensa de BB contra una apertura desde MP"
+      "title": "34 · Early vs 3Bet OOP",
+      "src": "assets/images/34_Early2_vs_3bet_OOP_0.png",
+      "alt": "Rango de Early contra 3Bet fuera de posición"
     },
     {
-      "title": "12 · Defensa BB vs CO",
-      "src": "assets/images/12_defensa_BB_vs_CO_0.png",
-      "alt": "Rango de defensa de BB contra una apertura desde CO"
+      "title": "35 · CO vs 3Bet OOP",
+      "src": "assets/images/35_CO_vs_3bet_OOP_0.png",
+      "alt": "Rango de CO contra 3Bet fuera de posición"
     },
     {
-      "title": "13 · Defensa BB vs BTN",
-      "src": "assets/images/13_defensa_BB_vs_BTN_0.png",
-      "alt": "Rango de defensa de BB contra una apertura desde BTN"
+      "title": "36 · BTN vs 3Bet OOP",
+      "src": "assets/images/36_BTN_vs_3bet_OOP_0.png",
+      "alt": "Rango de BTN contra 3Bet fuera de posición"
     },
     {
-      "title": "14 · Defensa BB vs SB",
-      "src": "assets/images/14_defensa_BB_vs_SB_0.png",
-      "alt": "Rango de defensa de BB contra una apertura desde SB"
+      "title": "00 · Empty",
+      "src": "assets/images/00_blank_space_0.png",
+      "alt": "Rango en blanco"
+    },
+    {
+      "title": "05 · Defensa BB vs MP",
+      "src": "assets/images/11b_defensa_BB_vs_MP_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde MP",
+      "blockStyle": "bb-defense"
+    },
+    {
+      "title": "06 · Defensa BB vs CO",
+      "src": "assets/images/12b_defensa_BB_vs_CO_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde CO",
+      "blockStyle": "bb-defense"
+    },
+    {
+      "title": "07 · Defensa BB vs BTN",
+      "src": "assets/images/13b_defensa_BB_vs_BTN_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde BTN",
+      "blockStyle": "bb-defense"
+    },
+    {
+      "title": "08 · Defensa BB vs SB",
+      "src": "assets/images/14b_defensa_BB_vs_SB_0.png",
+      "alt": "Rango de defensa de BB contra una apertura desde SB",
+      "blockStyle": "bb-defense"
+    },
+    {
+      "title": "11 · 3Bet SB vs Early",
+      "src": "assets/images/23b_3bet_vs_Early_Hero_SB_0.png",
+      "alt": "Rango de 3Bet de SB contra Early"
+    },
+    {
+      "title": "12 · 3Bet SB vs CO",
+      "src": "assets/images/24b_3bet_vs_CO_Hero_SB_0.png",
+      "alt": "Rango de 3Bet de SB contra CO"
+    },
+    {
+      "title": "13 · 3Bet SB vs BTN",
+      "src": "assets/images/25b_3bet_vs_BTN_Hero_SB_0.png",
+      "alt": "Rango de 3Bet de SB contra BTN"
+    },
+    {
+      "title": "00 · Empty",
+      "src": "assets/images/00_blank_space_0.png",
+      "alt": "Rango en blanco"
+    },
+    {
+      "title": "20b · Early vs Early",
+      "src": "assets/images/20b_3bet_vs_EP_Hero_IP_0.png",
+      "alt": "Rango de Early contra Early"
+    },
+    {
+      "title": "21b · CO vs Early",
+      "src": "assets/images/21b_3bet_vs_MP_Hero_IP_0.png",
+      "alt": "Rango de CO contra Early"
+    },
+    {
+      "title": "22b · BTN vs CO",
+      "src": "assets/images/22b_3bet_vs_CO_Hero_IP_0.png",
+      "alt": "Rango de BTN contra CO"
+    },
+    {
+      "title": "00 · Empty",
+      "src": "assets/images/00_blank_space_0.png",
+      "alt": "Rango en blanco"
+    },
+    {
+      "title": "40 · Open 4Bet",
+      "src": "assets/images/40_Open_4bet_0.png",
+      "alt": "Rango de Open 4Bet"
+    },
+    {
+      "title": "HU ·  Small Blind",
+      "src": "assets/images/90_HU_SB_0.png",
+      "alt": "Rango de Small Blind en Heads Up"
+    },
+    {
+      "title": "HU ·  Big Blind",
+      "src": "assets/images/91_HU_BB_0.png",
+      "alt": "Rango de Big Blind en Heads Up"
     }
   ]
 }
