@@ -214,6 +214,22 @@ main {
   color: #4fc78b;
 }
 
+.range-card--rol h3 {
+  color: #e49060;
+}
+
+.range-card--sb-3bet h3 {
+  color: #e75a5a;
+}
+
+.range-card--empty h3 {
+  color: var(--muted);
+}
+
+.range-card--3bet-IP h3 {
+  color: #e4cc60;
+}
+
 .range-card img {
   display: block;
   width: 100%;

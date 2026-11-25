@@ -33,7 +33,8 @@
     {
       "title": "00 · Empty",
       "src": "assets/images/00_blank_space_0.png",
-      "alt": "Rango en blanco"
+      "alt": "Rango en blanco",
+      "blockStyle": "empty"
     },
     {
       "title": "33 · SB vs 3Bet IP",
@@ -56,9 +57,10 @@
       "alt": "Rango de BTN contra 3Bet fuera de posición"
     },
     {
-      "title": "00 · Empty",
-      "src": "assets/images/00_blank_space_0.png",
-      "alt": "Rango en blanco"
+      "title": "07 · ROL (22% and 30%)",
+      "src": "assets/images/07_ROL_0.png",
+      "alt": "Rango de ROL",
+      "blockStyle": "rol"
     },
     {
       "title": "05 · Defensa BB vs MP",
@@ -87,42 +89,50 @@
     {
       "title": "11 · 3Bet SB vs Early",
       "src": "assets/images/23b_3bet_vs_Early_Hero_SB_0.png",
-      "alt": "Rango de 3Bet de SB contra Early"
+      "alt": "Rango de 3Bet de SB contra Early",
+      "blockStyle": "sb-3bet"
     },
     {
       "title": "12 · 3Bet SB vs CO",
       "src": "assets/images/24b_3bet_vs_CO_Hero_SB_0.png",
-      "alt": "Rango de 3Bet de SB contra CO"
+      "alt": "Rango de 3Bet de SB contra CO",
+      "blockStyle": "sb-3bet"
     },
     {
       "title": "13 · 3Bet SB vs BTN",
       "src": "assets/images/25b_3bet_vs_BTN_Hero_SB_0.png",
-      "alt": "Rango de 3Bet de SB contra BTN"
+      "alt": "Rango de 3Bet de SB contra BTN",
+      "blockStyle": "sb-3bet"
     },
     {
       "title": "00 · Empty",
       "src": "assets/images/00_blank_space_0.png",
-      "alt": "Rango en blanco"
+      "alt": "Rango en blanco",
+      "blockStyle": "empty"
     },
     {
       "title": "20b · Early vs Early",
       "src": "assets/images/20b_3bet_vs_EP_Hero_IP_0.png",
-      "alt": "Rango de Early contra Early"
+      "alt": "Rango de Early contra Early",
+      "blockStyle": "3bet-IP"
     },
     {
       "title": "21b · CO vs Early",
       "src": "assets/images/21b_3bet_vs_MP_Hero_IP_0.png",
-      "alt": "Rango de CO contra Early"
+      "alt": "Rango de CO contra Early",
+      "blockStyle": "3bet-IP"
     },
     {
       "title": "22b · BTN vs CO",
       "src": "assets/images/22b_3bet_vs_CO_Hero_IP_0.png",
-      "alt": "Rango de BTN contra CO"
+      "alt": "Rango de BTN contra CO",
+      "blockStyle": "3bet-IP"
     },
     {
       "title": "00 · Empty",
       "src": "assets/images/00_blank_space_0.png",
-      "alt": "Rango en blanco"
+      "alt": "Rango en blanco",
+      "blockStyle": "empty"
     },
     {
       "title": "40 · Open 4Bet",
